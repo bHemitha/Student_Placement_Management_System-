@@ -1,0 +1,76 @@
+body
+{
+  margin-left: 20px;
+    margin-right: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    text-align: left;
+    padding: 8px;
+    border: solid;
+    border-color: white;
+    background-color: rgb(2, 2, 2);
+  }
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(32, 35, 56);
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: rgb(243, 168, 190);
+    color: rgb(1, 1, 1);
+  }
+  
+  /* styles.css */
+/* Input fields */
+input[type="text"],
+input[type="number"] {
+    padding: 5px;
+    border: 3px solid rgb(32, 35, 56);
+    border-radius: 4px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(37, 41, 69);
+    color: #EFF2F9;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+button{
+    border: none;
+    text-align: center;
+    margin-left: 20px;
+    background-color: rgb(37, 41, 69);
+    color: #EFF2F9;
+    outline: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+legend {
+  font-size: 18px; 
+  font-weight: bold; 
+}
+
+label {
+  font-size: 16px; 
+  font-weight: bold; 
+}
+
+fieldset
+{
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid rgb(32, 35, 56);
+}
